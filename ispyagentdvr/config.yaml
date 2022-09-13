@@ -8,7 +8,6 @@ arch:
   - armv7
   - aarch64
   - amd64
-  - i386
 watchdog: "http://[HOST]:[PORT:8090]/"
 webui: "http://[HOST]:[PORT:8090]/"
 panel_admin: true
