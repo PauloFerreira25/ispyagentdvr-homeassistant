@@ -1,3 +1,5 @@
+ARG BUILD_FROM
+FROM $BUILD_FROM
 
 #Define download location variables
 ARG FILE_LOCATION="https://ispyfiles.azureedge.net/downloads/Agent_Linux64_4_1_9_0.zip"
