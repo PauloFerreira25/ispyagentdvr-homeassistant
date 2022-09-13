@@ -51,7 +51,7 @@ RUN apt-get -y --purge remove unzip wget \
 
 # Docker needs to run a TURN server to get webrtc traffic to and from it over forwarded ports from the host
 # These are the default ports. If the ports below are modified here you'll also need to set the ports in XML/Config.xml
-# for example <TurnServerPort>3478</TurnServerPort><TurnServerMinPort>50000</TurnServerMinPort><TurnServerMaxPort>50010</TurnServerMaxPort>
+# for ispyagentdvr <TurnServerPort>3478</TurnServerPort><TurnServerMinPort>50000</TurnServerMinPort><TurnServerMaxPort>50010</TurnServerMaxPort>
 # The main server port is overridden by creating a text file called port.txt in the root directory containing the port number, eg: 8090
 # To access the UI you must use the local IP address of the host, NOT localhost - for example http://192.168.1.12:8090/
 

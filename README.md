@@ -10,7 +10,7 @@ Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
 This repository contains the following add-ons
 
-### [Example add-on](./example)
+### [Example add-on](./ispyagentdvr)
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
@@ -26,13 +26,13 @@ Notes to developers after forking or using the github template feature:
 - While developing comment out the 'image' key from 'example/config.yaml' to make the supervisor build the addon
   - Remember to put this back when pushing up your changes.
 - When you merge to the 'main' branch of your repository a new build will be triggered.
-  - Make sure you adjust the 'version' key in 'example/config.yaml' when you do that.
+  - Make sure you adjust the 'version' key in 'ispyagentdvr/config.yaml' when you do that.
   - Make sure you update 'example/CHANGELOG.md' when you do that.
   - The first time this runs you might need to adjust the image configuration on github container registry to make it public
-- Adjust the 'image' key in 'example/config.yaml' so it points to your username instead of 'home-assistant'.
+- Adjust the 'image' key in 'ispyagentdvr/config.yaml' so it points to your username instead of 'home-assistant'.
   - This is where the build images will be published to.
-- Rename the example directory.
-  - The 'slug' key in 'example/config.yaml' should match the directory name.
+- Rename the ispyagentdvr directory.
+  - The 'slug' key in 'ispyagentdvr/config.yaml' should match the directory name.
 - Adjust all keys/url's that points to 'home-assistant' to now point to your user/fork.
 - Share your repository on the forums https://community.home-assistant.io/c/projects/9
 - Do awesome stuff!

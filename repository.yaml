@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
 name: ispyagentdvr Assistant add-on repository
 url: 'https://github.com/PauloFerreira25/ispyagentdvr-homeassistant'
-maintainer: PauloFerreira25 <awesome@example.com>
+maintainer: PauloFerreira25 <awesome@ispyagentdvr.com>
