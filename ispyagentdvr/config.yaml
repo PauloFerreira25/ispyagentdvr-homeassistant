@@ -10,10 +10,8 @@ arch:
   - amd64
   - i386
 watchdog: "http://[HOST]:[PORT:8090]/"
-ingress: true
-ingress_port: 8090
-ingress_entry: /
-panel_admin: false
+webui: "http://[HOST]:[PORT:8090]/"
+panel_admin: true
 ports:
   8090/tcp: 8090
   3478/udp: 3478
