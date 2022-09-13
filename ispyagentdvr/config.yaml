@@ -4,7 +4,6 @@ slug: ispyagentdvr
 description: ispyagentdvr
 url: "https://github.com/PauloFerreira25/ispyagentdvr-homeassistant/tree/main/ispyagentdvr"
 arch:
-  - armhf
   - armv7
   - aarch64
   - amd64
