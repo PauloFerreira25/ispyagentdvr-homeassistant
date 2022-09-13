@@ -3,7 +3,7 @@ name: Example add-on
 version: "1.2.0"
 slug: example
 description: Example add-on
-url: "https://github.com/home-assistant/addons-example/tree/main/example"
+url: "https://github.com/PauloFerreira25/ispyagentdvr-homeassistant/tree/main/example"
 arch:
   - armhf
   - armv7

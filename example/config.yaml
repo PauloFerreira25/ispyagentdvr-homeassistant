@@ -1,6 +1,15 @@
 name: ispyagentdvr
 version: "0.1"
 startup: application
+slug: ispyagentdvr
+description: ispyagentdvr
+url: "https://github.com/PauloFerreira25/ispyagentdvr-homeassistant/tree/main/example"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
 boot: auto
 webui: "http://[HOST]:[PORT:8090]/"
 watchdog: "http://[HOST]:[PORT:8090]/"
