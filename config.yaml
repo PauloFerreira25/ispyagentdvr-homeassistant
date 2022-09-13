@@ -1,0 +1,46 @@
+name: ispyagentdvr
+version: "0.1"
+startup: application
+boot: auto
+webui: "http://[HOST]:[PORT:8090]/"
+watchdog: "http://[HOST]:[PORT:8090]/"
+ingress: true
+ingress_port: 8090
+ingress_entry: /
+panel_admin: false
+ports:
+  8090/tcp: 8090
+  3478/udp: 3478
+  50000/udp: 50000
+  50001/udp: 50001
+  50002/udp: 50002
+  50003/udp: 50003
+  50004/udp: 50004
+  50005/udp: 50005
+  50006/udp: 50006
+  50007/udp: 50007
+  50008/udp: 50008
+  50009/udp: 50009
+  50010/udp: 50010
+ports_description:
+  8090/tcp: Web interface (Not required for Hass.io Ingress)
+  3478/udp: UDP 3478
+  50000/udp: UDP 50000
+  50001/udp: UDP 50001
+  50002/udp: UDP 50002
+  50003/udp: UDP 50003
+  50004/udp: UDP 50004
+  50005/udp: UDP 50005
+  50006/udp: UDP 50006
+  50007/udp: UDP 50007
+  50008/udp: UDP 50008
+  50009/udp: UDP 50009
+  50010/udp: UDP 50010
+host_network: true
+full_access: true
+options: {}
+schema: {}
+map:
+  - "data:rw"
+  - "media:rw"
+  - "config:rw"
